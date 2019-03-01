@@ -17,6 +17,7 @@
   min-width: 600px;
   max-width: 100%;
   margin: auto;
+  overflow: hidden;
 }
 
 /* page header */
@@ -27,7 +28,8 @@
   left: 0;
   right: 0;
   padding: 5px 20px;
-  border-bottom: 1px solid #ccc
+  border-bottom: 1px solid #ccc;
+  z-index: 1000;
 }
 .header-title {
   text-align: center;
@@ -69,6 +71,8 @@
 /*  */
 .main {
   /* margin-top: 400px; */
+
+  /* position: relative; */
 }
 
 .main-header-section{
@@ -102,7 +106,7 @@
 }
 
 .meta{
-  margin-top:  10px ;
+  margin:  30px auto;
 }
 
 .meta .author{
@@ -135,10 +139,22 @@
 
 .main-container{
   clear: both;
-  position: relative;
 }
 
 .main-container aside{
-  float: right;
-  margin-right: -40px;
+/* position: relative; */
+float: right;
+width: 30%;
+padding: 5px;
+
+  
+}
+
+.side-p{
+  word-wrap: break-word;
+}
+
+.main-content{
+  margin-right: 0;
+  padding-right: 50px;
 }
