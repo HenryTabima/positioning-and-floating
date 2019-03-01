@@ -155,10 +155,12 @@
 }
 
 .main-container aside {
+  position: relative;
   width: 30vw;
   padding: 20px;
   float: right;
   height: 100%;
+ 
 
 }
 
@@ -169,4 +171,57 @@
 .main-content {
   margin-right: 0;
   /* padding-right: 50px; */
+}
+.main-container .first-side-item{
+  position: absolute;
+  top: 700px;
+  margin-bottom: 20px;
+  padding: 30px;
+  display: inline-block;
+}
+
+.main-container .second-side-item{
+  position: absolute;
+  top: 1300px;
+  padding: 0 20px;
+}
+.editor-side-item img{
+  position: relative;
+  float: left;
+  height: 100px;
+  width: 100px;
+  display: inline-block;
+ 
+}
+.editor-side-item p{
+  float: right;
+  display: inline-block;
+
+
+}
+.second-side-item h3{
+  font-size: 20px;
+  font-weight: bold;
+  text-align: left;
+  margin-bottom: 5px;
+ 
+}
+.second-side-item p{
+  font-size: 14;
+  color: silver;
+  padding: 20px 0;
+}
+.second-side-item button{
+  background-color: rgb(98, 136, 165);
+  color: white;
+  height: 40px;
+  width: 100%;
+  border-radius: 5px;
+  outline: none;
+  padding: 0 50px;
+  font-weight: bold;
+
+
+
+
 }
