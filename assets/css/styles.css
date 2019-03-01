@@ -7,13 +7,10 @@
 * {
   box-sizing: border-box;
 }
-.social-media{
-    /* padding: 10px; */
-    background-color: whitesmoke;
-    border-radius: 50%;
 
-  
-  
+.social-media {
+  background-color: whitesmoke;
+  border-radius: 50%;
 }
 
 .left-floated {
@@ -26,7 +23,6 @@
 
 .content-wide {
   width: 40vw;
-  /* min-width: 300px; */
   max-width: 100%;
   margin: auto;
   overflow: hidden;
@@ -62,7 +58,6 @@
   display: inline-block;
   margin: 0 5px;
   height: 100%;
-
 }
 
 .header-navigation.left-floated {
@@ -79,13 +74,6 @@
   padding: 0 15px;
   margin-right: 0;
   font-weight: bold;
-}
-
-/* Main Section */
-.main {
-  /* margin-top: 400px; */
-
-  /* position: relative; */
 }
 
 .main-header-section {
@@ -144,12 +132,6 @@
   border-radius: 50%;
 }
 
-/* .meta .actions .action-item.social-media { */
-  /* padding: 10px; */
-  /* background-color: whitesmoke; */
-  /* border-radius: 50%; */
-/* } */
-
 .meta .date {
   line-height: 35px;
   color: grey;
@@ -158,8 +140,6 @@
 
 .main-container {
   clear: both;
-  /* position: relative; */
-  /* width: 100vw; */
 }
 
 .main-container aside {
@@ -168,19 +148,16 @@
   padding: 20px;
   float: right;
   height: 100%;
- 
 
-}
 
-.side-p {
-  /* word-wrap: break-word; */
 }
 
 .main-content {
   margin-right: 0;
   /* padding-right: 50px; */
 }
-.main-container .first-side-item{
+
+.main-container .first-side-item {
   position: absolute;
   top: 700px;
   margin-bottom: 20px;
@@ -188,57 +165,43 @@
   display: inline-block;
 }
 
-.main-container .second-side-item{
+.main-container .second-side-item {
   position: absolute;
   top: 1300px;
   padding: 0 20px;
 }
-/* .editor-side-item .editor-side-image{
-float: left;
-width: 100px;
-height: auto;
-display: inline-block;
- 
-} */
 
-/* .editor-image{
-  width: 100%
+.editor-side-item {
+  display: flex;
 }
-.editor-side-item p{
-  float: right;
-  display: inline-block;
 
-} */
-
-.editor-side-image{
-  display: inline-block;
-  height: 100px;
+.editor-side-image {
   width: 100px;
 }
-.editor-side-image img{
+
+.editor-side-image img {
   width: 100%;
 }
-.editor-side-item .editor-note{
-  display: inline-block;
-  /* float: right; */
+
+.editor-note {
+  padding: 0 5px;
 }
 
-
-
-
-.second-side-item h3{
+.second-side-item h3 {
   font-size: 20px;
   font-weight: bold;
   text-align: left;
   margin-bottom: 5px;
- 
+
 }
-.second-side-item p{
+
+.second-side-item p {
   font-size: 14;
   color: silver;
   padding: 20px 0;
 }
-.second-side-item button{
+
+.second-side-item button {
   background-color: rgb(98, 136, 165);
   color: white;
   height: 40px;
@@ -247,20 +210,17 @@ display: inline-block;
   outline: none;
   padding: 0 50px;
   font-weight: bold;
-
-
-
-
 }
 
 
-.article-footer{
+.article-footer {
   clear: both;
   position: relative;
   margin: 20px 0;
 }
-.article-footer  button{
-float: left;
+
+.article-footer button {
+  float: left;
   background-color: rgb(98, 136, 165);
   color: white;
   height: 40px;
@@ -270,16 +230,15 @@ float: left;
   font-weight: bold;
 }
 
-.article-footer ul{
+.article-footer ul {
   float: right;
 }
 
-.article-footer ul li{
+.article-footer ul li {
   display: inline-block;
   padding: 0 5px;
   text-align: center;
   line-height: 30px;
   height: 30px;
   width: 30px;
-  
 }
