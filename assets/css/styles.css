@@ -1,0 +1,38 @@
+/*  common css */
+.left-floated {
+  float: left;
+}
+
+.right-floated {
+  float: right;
+}
+
+/* page header */
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 5px 20px;
+  border-bottom: 1px solid #ccc
+}
+.header-title {
+  text-align: center;
+  font-size: 1.4rem;
+  font-weight: bold;
+  line-height: 58px;
+  vertical-align: middle;
+}
+.header-navigation>* {
+  display: inline-block;
+  margin: 0 5px;
+}
+
+.header-navigation.left-floated {
+  margin: 20px 0
+}
+
+/*  */
+.main {
+  margin-top: 400px;
+}
