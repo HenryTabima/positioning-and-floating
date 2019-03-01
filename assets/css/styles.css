@@ -1,3 +1,8 @@
+/* Variables */
+:root {
+  --header-heigh: 40px;
+}
+
 /*  common css */
 .left-floated {
   float: left;
@@ -28,10 +33,16 @@
   text-align: center;
   font-size: 1.4rem;
   font-weight: bold;
-  line-height: 58px;
+  line-height: var(--header-heigh);
   vertical-align: middle;
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.header-navigation {
+  height: var(--header-heigh);
+  text-transform: uppercase;
+}
+
 .header-navigation>* {
   display: inline-block;
   margin: 0 5px;
@@ -40,19 +51,20 @@
 }
 
 .header-navigation.left-floated {
-  margin: 20px 0
+  line-height: var(--header-heigh);
 }
 
 .navigation-button{
   background-color:rgb(98, 136, 165);
   color: white;
-  padding: 5px;
   height: 100%;
-  margin-top: 20px ;
+  border: 1px solid rgba(0, 0, 0, 0.8);
   border-radius: 5px;
   outline: none;
+  padding: 0 15px;
+  margin-right: 0;
+  font-weight: bold;
 }
-
 
 /*  */
 .main {
@@ -63,41 +75,42 @@
   width: 960px;
   margin: 100px auto 0;
   text-align: center;
-
 }
+
 .main-title{
   font-size: 3rem;
   padding: 20px 20px 20px 100px ;
   font-weight: bold;
   font-family:cursive;
   text-align: left;
-  
 }
+
 .main-header-image img{
   width: 100%;
 }
+
 .main-header-image figcaption{
   color: grey;
   font-size: 1em;
   text-align: left;
 }
+
 .main-header-image figcaption sub{
   color: silver;
   font-size: 14px;
   padding-top: 4px;
 }
+
 .meta{
   margin-top:  10px ;
 }
+
 .meta .author{
   text-align: left;
   font-weight: bold;
   font-size: 14px;
   margin: 5px 5px;
-
 }
-
-
 
 .meta .actions .action-item {
   display: inline-block;
@@ -113,19 +126,19 @@
   background-color: whitesmoke;
   border-radius: 50%;
 }
+
 .meta .date{
   line-height: 35px;
   color: grey;
   font-size: 14px;
 }
+
 .main-container{
   clear: both;
   position: relative;
 }
 
 .main-container aside{
-/* position: absolute; */
-float: right;
-margin-right: -40px;
-
+  float: right;
+  margin-right: -40px;
 }
