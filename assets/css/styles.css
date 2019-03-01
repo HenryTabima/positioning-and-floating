@@ -9,6 +9,7 @@
 
 /* page header */
 .header {
+  background-color: white;
   position: fixed;
   top: 0;
   left: 0;
@@ -26,13 +27,32 @@
 .header-navigation>* {
   display: inline-block;
   margin: 0 5px;
+  height: 100%;
+
 }
 
 .header-navigation.left-floated {
   margin: 20px 0
 }
 
+.navigation-button{
+  background-color:rgb(98, 136, 165);
+  color: white;
+  padding: 5px;
+  height: 100%;
+  margin-top: 20px ;
+  border-radius: 5px;
+}
+
+
 /*  */
 .main {
-  margin-top: 400px;
+  /* margin-top: 400px; */
+}
+
+.main-header-section{
+  width: 960px;
+  margin: 100px auto 0;
+  text-align: center;
+
 }
