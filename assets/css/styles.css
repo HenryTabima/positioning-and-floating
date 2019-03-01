@@ -193,20 +193,39 @@
   top: 1300px;
   padding: 0 20px;
 }
-.editor-side-item img{
-  position: relative;
-  float: left;
-  height: 100px;
-  width: 100px;
-  display: inline-block;
+/* .editor-side-item .editor-side-image{
+float: left;
+width: 100px;
+height: auto;
+display: inline-block;
  
+} */
+
+/* .editor-image{
+  width: 100%
 }
 .editor-side-item p{
   float: right;
   display: inline-block;
 
+} */
 
+.editor-side-image{
+  display: inline-block;
+  height: 100px;
+  width: 100px;
 }
+.editor-side-image img{
+  width: 100%;
+}
+.editor-side-item .editor-note{
+  display: inline-block;
+  /* float: right; */
+}
+
+
+
+
 .second-side-item h3{
   font-size: 20px;
   font-weight: bold;
@@ -236,6 +255,7 @@
 
 
 .article-footer{
+  clear: both;
   position: relative;
   margin: 20px 0;
 }
