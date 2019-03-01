@@ -4,6 +4,10 @@
 }
 
 /*  common css */
+* {
+  box-sizing: border-box;
+}
+
 .left-floated {
   float: left;
 }
@@ -12,9 +16,9 @@
   float: right;
 }
 
-.content-wide{
-  width: 40%;
-  min-width: 600px;
+.content-wide {
+  width: 40vw;
+  /* min-width: 300px; */
   max-width: 100%;
   margin: auto;
   overflow: hidden;
@@ -31,6 +35,7 @@
   border-bottom: 1px solid #ccc;
   z-index: 1000;
 }
+
 .header-title {
   text-align: center;
   font-size: 1.4rem;
@@ -56,8 +61,8 @@
   line-height: var(--header-heigh);
 }
 
-.navigation-button{
-  background-color:rgb(98, 136, 165);
+.navigation-button {
+  background-color: rgb(98, 136, 165);
   color: white;
   height: 100%;
   border: 1px solid rgba(0, 0, 0, 0.8);
@@ -68,48 +73,54 @@
   font-weight: bold;
 }
 
-/*  */
+/* Main Section */
 .main {
   /* margin-top: 400px; */
 
   /* position: relative; */
 }
 
-.main-header-section{
-  width: 960px;
-  margin: 100px auto 0;
+.main-header-section {
+  margin-top: 100px;
   text-align: center;
 }
 
-.main-title{
+.main-title {
+  width: 600px;
+  margin: auto;
   font-size: 3rem;
-  padding: 20px 20px 20px 100px ;
+  padding: 20px 20px 20px 100px;
   font-weight: bold;
-  font-family:cursive;
+  font-family: cursive;
   text-align: left;
 }
 
-.main-header-image img{
+.main-header-image {
+  width: 80%;
+  margin: auto;
+}
+
+.main-header-image img {
   width: 100%;
 }
 
-.main-header-image figcaption{
+.main-header-image figcaption {
   color: grey;
   font-size: 1em;
   text-align: left;
 }
 
-.main-header-image figcaption sub{
+.main-header-image figcaption sub {
   color: silver;
   font-size: 14px;
   padding-top: 4px;
 }
 
-.meta{
-  margin:  30px auto;
+.meta {
+  margin: 30px auto;
 }
 
-.meta .author{
+.meta .author {
   text-align: left;
   font-weight: bold;
   font-size: 14px;
@@ -125,36 +136,37 @@
   border-radius: 50%;
 }
 
-.meta .actions .action-item.social-media{
+.meta .actions .action-item.social-media {
   /* padding: 10px; */
   background-color: whitesmoke;
   border-radius: 50%;
 }
 
-.meta .date{
+.meta .date {
   line-height: 35px;
   color: grey;
   font-size: 14px;
 }
 
-.main-container{
+.main-container {
   clear: both;
+  /* position: relative; */
+  /* width: 100vw; */
 }
 
-.main-container aside{
-/* position: relative; */
-float: right;
-width: 30%;
-padding: 5px;
+.main-container aside {
+  width: 30vw;
+  padding: 20px;
+  float: right;
+  height: 100%;
 
-  
 }
 
-.side-p{
-  word-wrap: break-word;
+.side-p {
+  /* word-wrap: break-word; */
 }
 
-.main-content{
+.main-content {
   margin-right: 0;
-  padding-right: 50px;
+  /* padding-right: 50px; */
 }
