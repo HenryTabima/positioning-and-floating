@@ -228,10 +228,18 @@
   font-weight: bold;
 }
 
-/* the image is larger than the container even in the original site, we are just matching the example */
+/* the image is larger than the container even in the original site, we are just matching the example hence 120% */
 .example-image img {
   width: 100%;
 }
+
+ /*The style below => This is the way the site is layedout with the images */
+/* 
+.example-image img {
+  width: 120%;
+} */
+
+
 
 .example-image {
   position: relative;
@@ -315,4 +323,22 @@
   line-height: 30px;
   height: 30px;
   width: 30px;
+}
+
+.page-footer{
+  background-color:whitesmoke;
+  /* height: 40px; */
+}
+
+.page-footer .page-footer-container{
+  width: 100%;
+  max-width: 1000px;
+  margin: auto;
+  padding: 20px;
+  text-align: center;
+
+}
+
+.page-footer .page-footer-container a{
+  float: right;
 }
