@@ -23,12 +23,12 @@
 }
 
 .content-wide {
-  width: 40vw;
+  width: 40%;
   max-width: 100%;
   margin: auto;
-  /* overflow: hidden; */
 }
-.cropped-image{
+
+.cropped-image {
   overflow: hidden;
 }
 
@@ -144,6 +144,7 @@
 
 .main-container {
   clear: both;
+  padding-top: 20px;
 }
 
 .main-container aside {
@@ -156,27 +157,22 @@
 
 }
 
-.main-content {
-  margin-right: 0;
-  /* padding-right: 50px; */
-}
-
 .main-container .first-side-item {
   position: absolute;
   top: 700px;
-  margin-bottom: 20px;
   padding: 30px;
-  display: inline-block;
+  width: 100%;
 }
 
 .main-container .second-side-item {
   position: absolute;
   top: 1300px;
   padding: 0 20px;
+  width: 100%;
 }
 
 .editor-side-item {
-clear: left
+  clear: left
 }
 
 .editor-side-image {
@@ -187,11 +183,18 @@ clear: left
 
 .editor-side-image img {
   width: 100%;
-  
+
 }
 
 .editor-note {
   padding: 0 5px;
+}
+
+.side-item-container {
+  width: 60%;
+  margin: auto;
+  max-width: 350px;
+  min-width: 280px;
 }
 
 .second-side-item h3 {
@@ -219,46 +222,76 @@ clear: left
   font-weight: bold;
 }
 
+.main-container h3 {
+  margin: 20px 0;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
 
-.example-image img{
+
+.example-image img {
   /* height: 500px; */
   width: 120%;
 }
-.example-image{
+
+.example-image {
   position: relative;
 }
-.example-image .image-description{
+
+.example-image .image-description {
   display: inline-block;
   vertical-align: top;
   width: 22%;
   font-size: 12px;
-  margin-right:15px; 
-
+  margin-right: 15px;
 }
 
-
-
-
-
-
-.image-description-container{
+.image-description-container {
   position: absolute;
   width: 120%;
-  top:120px;
+  top: 20%;
 }
 
-.image-description-container.second{
+.image-description-container.second {
   position: absolute;
   width: 120%;
-  top:370px;
+  top: 70%;
 }
 
-.image-3 img{
-
-  height: 300px;
-
+.video {
+  margin: 30px 0;
+  color: #666;
 }
 
+.video .video-wrapper {
+  position: relative;
+  padding-top: 56.25%;
+  margin-bottom: 10px;
+}
+
+.video .video-wrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.image-3 {
+  width: 120%;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 30px auto;
+}
+
+.image-3 img {
+  width: 100%;
+}
+
+.image-3 figcaption {
+  color: #666;
+}
 
 .article-footer {
   margin: 20px 0;
