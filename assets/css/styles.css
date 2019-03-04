@@ -228,10 +228,9 @@
   font-weight: bold;
 }
 
-
+/* the image is larger than the container even in the original site, we are just matching the example */
 .example-image img {
-  /* height: 500px; */
-  width: 120%;
+  width: 100%;
 }
 
 .example-image {
@@ -278,10 +277,7 @@
 }
 
 .image-3 {
-  width: 120%;
-  position: relative;
-  left: 50%;
-  transform: translateX(-50%);
+  width: 100%;
   margin: 30px auto;
 }
 
