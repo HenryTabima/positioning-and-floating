@@ -248,20 +248,22 @@
 .example-image .image-description {
   display: inline-block;
   vertical-align: top;
-  width: 22%;
-  font-size: 12px;
-  margin-right: 15px;
+  width: 24%;
+  font-size: 10px;
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0 5px;
 }
 
 .image-description-container {
   position: absolute;
-  width: 120%;
+  width: 100%;
   top: 20%;
 }
 
 .image-description-container.second {
   position: absolute;
-  width: 120%;
+  width: 100%;
   top: 70%;
 }
 
