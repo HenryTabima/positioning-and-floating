@@ -1,6 +1,7 @@
 /* Variables */
 :root {
   --header-heigh: 40px;
+  /* --image-height: 648px; */
 }
 
 /*  common css */
@@ -214,6 +215,42 @@ clear: left
   padding: 0 50px;
   font-weight: bold;
 }
+
+
+.example-image img{
+  /* height: 500px; */
+  width: 120%;
+}
+.example-image{
+  position: relative;
+}
+.example-image .image-description{
+  display: inline-block;
+  vertical-align: top;
+  width: 22%;
+  font-size: 12px;
+  margin-right:15px; 
+
+}
+
+
+
+
+
+
+.image-description-container{
+  position: absolute;
+  width: 120%;
+  top:120px;
+}
+
+.image-description-container.second{
+  position: absolute;
+  width: 120%;
+  top:370px;
+}
+
+
 
 
 .article-footer {
