@@ -172,15 +172,18 @@
 }
 
 .editor-side-item {
-  display: flex;
+clear: left
 }
 
 .editor-side-image {
   width: 100px;
+  float: left;
+  margin-right: 5px;
 }
 
 .editor-side-image img {
   width: 100%;
+  
 }
 
 .editor-note {
@@ -214,13 +217,11 @@
 
 
 .article-footer {
-  clear: both;
-  position: relative;
   margin: 20px 0;
 }
 
 .article-footer button {
-  float: left;
+  /* float: left; */
   background-color: rgb(98, 136, 165);
   color: white;
   height: 40px;
