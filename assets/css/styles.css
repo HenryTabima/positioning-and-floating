@@ -26,6 +26,9 @@
   width: 40vw;
   max-width: 100%;
   margin: auto;
+  /* overflow: hidden; */
+}
+.cropped-image{
   overflow: hidden;
 }
 
@@ -250,7 +253,11 @@ clear: left
   top:370px;
 }
 
+.image-3 img{
 
+  height: 300px;
+
+}
 
 
 .article-footer {
