@@ -1,0 +1,343 @@
+/* Variables */
+
+:root {
+  --header-heigh: 40px;
+}
+
+/*  common css */
+
+* {
+  box-sizing: border-box;
+}
+
+.social-media {
+  background-color: whitesmoke;
+  border-radius: 50%;
+}
+
+.left-floated {
+  float: left;
+}
+
+.right-floated {
+  float: right;
+}
+
+.content-wide {
+  width: 40vw;
+  max-width: 100%;
+  margin: auto;
+}
+
+.cropped-image {
+  overflow: hidden;
+}
+
+/* page header */
+
+.header {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1000;
+  padding: 5px 20px;
+  background-color: white;
+  border-bottom: 1px solid #ccc;
+}
+
+.header-title {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.4rem;
+  font-weight: bold;
+  line-height: var(--header-heigh);
+  text-align: center;
+  vertical-align: middle;
+}
+
+.header-navigation {
+  height: var(--header-heigh);
+  text-transform: uppercase;
+}
+
+.header-navigation > * {
+  display: inline-block;
+  height: 100%;
+  margin: 0 5px;
+}
+
+.header-navigation.left-floated {
+  line-height: var(--header-heigh);
+}
+
+.navigation-button {
+  height: 100%;
+  padding: 0 15px;
+  margin-right: 0;
+  font-weight: bold;
+  color: white;
+  background-color: #6288a5;
+  border: 1px solid rgba(0,0,0,.8);
+  border-radius: 5px;
+  outline: none;
+}
+
+.main-header-section {
+  margin-top: 100px;
+  text-align: center;
+}
+
+.main-title {
+  width: 600px;
+  padding: 20px 20px 20px 100px;
+  margin: auto;
+  font-family: cursive;
+  font-size: 3rem;
+  font-weight: bold;
+  text-align: left;
+}
+
+.main-header-image {
+  width: 80%;
+  margin: auto;
+}
+
+.main-header-image img {
+  width: 100%;
+}
+
+.main-header-image figcaption {
+  font-size: 1em;
+  color: grey;
+  text-align: left;
+}
+
+.main-header-image figcaption sub {
+  padding-top: 4px;
+  font-size: 14px;
+  color: silver;
+}
+
+.meta {
+  margin: 30px auto;
+}
+
+.meta .author {
+  margin: 5px 5px;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: left;
+}
+
+.meta .actions .action-item {
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  line-height: 35px;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+.meta .date {
+  font-size: 14px;
+  line-height: 35px;
+  color: grey;
+}
+
+.main-container {
+  padding-top: 20px;
+  clear: both;
+}
+
+.main-container aside {
+  position: relative;
+  float: right;
+  width: 30vw;
+}
+
+.first-side-item,
+.second-side-item {
+  left: 0;
+  right: 0;
+}
+
+.main-container .first-side-item {
+  position: absolute;
+  top: 700px;
+  width: 100%;
+  padding: 30px;
+}
+
+.main-container .second-side-item {
+  position: absolute;
+  top: 1300px;
+  width: 100%;
+}
+
+.editor-side-item {
+  clear: left;
+}
+
+.editor-side-image {
+  float: left;
+  width: 100px;
+  margin-right: 5px;
+}
+
+.editor-side-image img {
+  width: 100%;
+}
+
+.editor-note {
+  padding: 0 5px;
+}
+
+.side-item-container {
+  width: 300px;
+  max-width: 100%;
+  margin: auto;
+}
+
+.second-side-item h3 {
+  margin-bottom: 5px;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: left;
+}
+
+.second-side-item p {
+  padding: 20px 0;
+  font-size: 14;
+  color: silver;
+}
+
+.second-side-item button {
+  width: 100%;
+  height: 40px;
+  padding: 0 50px;
+  font-weight: bold;
+  color: white;
+  background-color: #6288a5;
+  border-radius: 5px;
+  outline: none;
+}
+
+.main-container h3 {
+  margin: 20px 0;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+/* the image is larger than the container even in the original site, we are just matching the example hence 120% */
+
+.example-image img {
+  width: 100%;
+}
+
+/*The style below => This is the way the site is layedout with the images */
+
+/*
+.example-image img {
+  width: 120%;
+} */
+
+.example-image {
+  position: relative;
+}
+
+.example-image .image-description {
+  display: inline-block;
+  width: 24%;
+  padding: 0 5px;
+  margin: 0;
+  font-size: 10px;
+  vertical-align: top;
+  box-sizing: border-box;
+}
+
+.image-description-container {
+  position: absolute;
+  top: 20%;
+  width: 100%;
+}
+
+.image-description-container.second {
+  position: absolute;
+  top: 70%;
+  width: 100%;
+}
+
+.video {
+  margin: 30px 0;
+  color: #666;
+}
+
+.video .video-wrapper {
+  position: relative;
+  padding-top: 56.25%;
+  margin-bottom: 10px;
+}
+
+.video .video-wrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.image-3 {
+  width: 100%;
+  margin: 30px auto;
+}
+
+.image-3 img {
+  width: 100%;
+}
+
+.image-3 figcaption {
+  color: #666;
+}
+
+.article-footer {
+  margin: 20px 0;
+}
+
+.article-footer button {
+  height: 40px;
+  padding: 0 50px;
+  font-weight: bold;
+  color: white;
+  background-color: #6288a5;
+  border-radius: 5px;
+  outline: none;
+}
+
+.article-footer ul {
+  float: right;
+}
+
+.article-footer ul li {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  padding: 0 5px;
+  line-height: 30px;
+  text-align: center;
+}
+
+.page-footer {
+  background-color: whitesmoke;
+}
+
+.page-footer .page-footer-container {
+  width: 100%;
+  max-width: 1000px;
+  padding: 20px;
+  margin: auto;
+  text-align: center;
+}
+
+.page-footer .page-footer-container a {
+  float: right;
+}
